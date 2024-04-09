@@ -10,4 +10,4 @@ function download(url, filename) {
   .catch(console.error);
 }
 
-download("https://sushio4.github.io/txts/get_pwned.txt","get_pwned.txt")
+download("https://sushio4.github.io/TXTS/get_pwned.txt","get_pwned.txt")
