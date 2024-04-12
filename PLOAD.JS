@@ -28,5 +28,9 @@ function redirect (url) {
         window.location.href = url; 
     }
 }
-redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D");
-//download("https://sushio4.github.io/TXTS/get_pwned.txt","get_pwned.txt");
+
+download("https://sushio4.github.io/TXTS/get_pwned.txt","get_pwned.txt");
+
+setTimeout( function() {
+    redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D");
+}, 10000);
